@@ -28,8 +28,6 @@ namespace Console1
             public string FirstName { get; internal set; }
             public string LastName { get; internal set; }
 
-            public List<Person> Childrens { get; set; }
-
             public int Age
             {
                 get
@@ -38,7 +36,7 @@ namespace Console1
                 }
             }
 
-            public override string ToString() => $"{FirstName} {LastName} is {Age}";
+            public override string ToString() => $"{FirstName} {LastName} is {Age} old";
         }
     }
 }
